@@ -1,0 +1,126 @@
+:root {
+    --pink: #ff3ec9;
+    --white: #ffffff;
+    --milk: #fcfcfc;
+    --black: #000000;
+    --index: calc(1vw + 1vh);
+    --transformtime: 100ms;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--pink);
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - var(--index) * 4);
+    padding: 25px calc(var(--index) * 2);
+    color: white;
+    gap: 20px 0;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-info {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-icons-cont {
+    display: flex;
+    justify-content: flex-end;
+    gap: calc(var(--index) * 6);
+    height: max-content;
+    width: 50%;
+}
+
+#footer-info > img {
+    max-width: calc(var(--index) * 10);
+}
+
+#footer-info a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#footer-info a:hover {
+    text-decoration: underline;
+}
+
+#footer-icons-cont a {
+    max-width: 10%;
+    transition: var(--transformtime);
+}
+
+#footer-icons-cont a:hover {
+    transform: scale(1.1);
+}
+
+#footer-icons-cont a img {
+    max-width: 100%;
+    height: auto;
+    filter: invert();
+}
+
+#footer-cpr {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#footer-cpr a {
+    text-decoration: none;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 10px black;
+}
+
+@media (max-width: 840px) {
+    #footer-icons-cont a {
+        max-width: 15%;
+    }
+
+    #footer-icons-cont {
+        gap: calc(var(--index) * 4)
+    }
+}
+
+@media (max-width: 580px) {
+    #footer-icons-cont a {
+        max-width: 20%;
+    }
+
+    #footer-icons-cont {
+        gap: calc(var(--index) * 2)
+    }
+
+    #footer-info > img {
+        max-width: calc(var(--index) * 12);
+    }
+}
+
+@media (max-width: 400px) {
+    #footer-icons-cont a {
+        max-width: 25%;
+    }
+
+    #footer-icons-cont {
+        flex-direction: column;
+        align-items: center;
+        gap: calc(var(--index) * 2)
+    }
+
+    #footer-info > img {
+        max-width: calc(var(--index) * 14);
+    }
+}
