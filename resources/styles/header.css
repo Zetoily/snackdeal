@@ -54,9 +54,6 @@ li a {
     overflow: hidden;
 }
 
-/* li a:hover {
-    text-shadow: 1px 1px 5px black;
-} */
 
 li a::after {
     content: "";
