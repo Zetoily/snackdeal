@@ -1,61 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information for browser and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon for the website -->
     <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png">
+
+    <!-- Link to stylesheets for main and reusable styles -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../resources/styles/header.css">
     <link rel="stylesheet" href="../resources/styles/footer.css">
     <link rel="stylesheet" href="../resources/styles/scrollbar.css">
+
+    <!-- JavaScript files for dynamic functionality -->
     <script src="script.js" defer></script>
     <script src="../resources/scripts/header.js" defer></script>
+
+    <!-- Page title displayed in the browser tab -->
     <title>Snack Deal</title>
 </head>
 <body>
+    <!-- Header section with logo and navigation menu -->
     <header class="header">
         <div class="img-cont" id="logo-cont">
+            <!-- Logo linking back to the main page -->
             <a href="../main">
                 <img src="../resources/images/transparent_logo.png" id="img-logo" alt="logo">
             </a>
         </div>
         <nav>
+            <!-- Hamburger menu for mobile view -->
             <input id="burger" type="checkbox">
             <label for="burger" class="menu-button">
-            <span></span>
+                <span></span>
             </label>
+            <!-- Navigation menu items -->
             <ul>
                 <li class="nav-li"><a href="../main">Home</a></li>
                 <li class="nav-li"><a href="../about">About Us</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Decorative separator between header and content -->
     <div class="head-splitter"></div>
+
+    <!-- Main content of the website -->
     <main>
+        <!-- Welcome section -->
         <section id="init-display">
             <div id="section1-cont">
                 <div id="main-text-cont">
+                    <!-- Welcome message and store description -->
                     <h1>Welcome<br/> to Snack Deal Store</h1>
                     <p>In our store, you can find a variety of treats<br/> for yourself and your loved ones.
                         <br><br>Quality and a wide assortment are what we guarantee!</p>
                 </div>
                 <div id="main-img-cont">
+                    <!-- Main promotional image -->
                     <img src="../resources/images/piece_of_cake.png" alt="">
                 </div>
             </div>
             <div id="arrow-img-cont">
+                <!-- Down arrow for navigation -->
                 <a href="#arrow-img-cont">
                     <img src="../resources/images/down_arrow.png" alt="">
                 </a>
             </div>
         </section>
+
+        <!-- Product catalog reference section -->
         <section id="catalog-reference">
             <div id="section2-cont">
                  <div id="cat-text-cont">
+                    <!-- Section header -->
                     <h2>Our Products</h2>
                     <p>Our store offers a wide variety of the following products</p>
                  </div>
                  <div id="cat-assort-cont">
+                    <!-- Product categories -->
                     <div class="cat-item" id="cat-item-drinks">
                         <div class="cat-item-img-cont">
                             <img src="../resources/images/cola.png" alt="">
@@ -77,14 +102,19 @@
                  </div>
             </div>
         </section>
+
+        <!-- Customer feedback section -->
         <section id="feedback">
             <div id="feed-text-cont">
+                <!-- Section header -->
                 <h2>Customer Feedback</h2>
             </div>
             <div id="slider-cont">
+                <!-- Feedback slider with navigation arrows -->
                 <img id="feed-candies" src="../resources/images/feedback_candies.png" alt="">
                 <img id="left-arrow" src="../resources/images/scroll_arrow.png" alt="">
                 <div id="slider">
+                    <!-- Individual feedback slides -->
                     <div class="slide" id="slide1">
                         <h3>Konstantin</h3>
                         <img src="../resources/images/stars.png" alt="">
@@ -105,14 +135,18 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer section -->
     <footer>
         <div id="footer-content">
             <div id="footer-info">
+                <!-- Logo and contact information -->
                 <img src="../resources/images/transparent_logo.png" alt="">
                 <a href="mailto:vantofrina@gmail.com">Email Us</a>
                 <a href="tel:+90000000000">Call Us</a>
             </div>
             <div id="footer-icons-cont">
+                <!-- Social media icons with links -->
                 <a href="http://web.telegram.org" target="_blank">
                     <img src="../resources/images/telegram.png" alt="">
                 </a>
@@ -124,6 +158,7 @@
                 </a>
             </div>
         </div>
+        <!-- Copyright notice -->
         <div id="footer-cpr">&copy; 2025 Snack Deal. <a target="_blank" href="https://github.com/Zetoily">Created by Yusupov Miron </a>.</div>
     </footer>
 </body>

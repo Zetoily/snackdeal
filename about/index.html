@@ -1,119 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png">
-    <link rel="stylesheet" href="about-style.css">
-    <link rel="stylesheet" href="../resources/styles/header.css">
-    <link rel="stylesheet" href="../resources/styles/footer.css">
-    <link rel="stylesheet" href="../resources/styles/scrollbar.css">
-    <script src="about_script.js" defer></script>
-    <script src="../resources/scripts/header.js" defer></script>
-    <title>Snack Deal</title>
+    <!-- Defines the document type and sets the language of the page -->
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive -->
+    <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png"> <!-- Tab icon -->
+    <!-- Linking CSS files -->
+    <link rel="stylesheet" href="about-style.css"> <!-- Main styles for this page -->
+    <link rel="stylesheet" href="../resources/styles/header.css"> <!-- Styles for the header -->
+    <link rel="stylesheet" href="../resources/styles/footer.css"> <!-- Styles for the footer -->
+    <link rel="stylesheet" href="../resources/styles/scrollbar.css"> <!-- Styles for the scrollbar -->
+    <!-- Linking JavaScript files -->
+    <script src="about_script.js" defer></script> <!-- Page-specific JavaScript -->
+    <script src="../resources/scripts/header.js" defer></script> <!-- Header-specific JavaScript -->
+    <title>Snack Deal</title> <!-- Title of the browser tab -->
 </head>
 <body>
+    <!-- Website header -->
     <header class="header">
         <div class="img-cont" id="logo-cont">
+            <!-- Logo linking to the main page -->
             <a href="../main">
                 <img src="../resources/images/transparent_logo.png" id="img-logo" alt="logo">
             </a>
         </div>
+        <!-- Navigation menu -->
         <nav>
+            <!-- Burger menu for mobile devices -->
             <input id="burger" type="checkbox">
             <label for="burger" class="menu-button">
             <span></span>
             </label>
             <ul>
-                <li class="nav-li"><a href="../main">Home</a></li>
-                <li class="nav-li"><a href="../about">About Us</a></li>
+                <li class="nav-li"><a href="../main">Home</a></li> <!-- Link to the main page -->
+                <li class="nav-li"><a href="../about">About Us</a></li> <!-- Link to the About Us page -->
             </ul>
         </nav>
     </header>
+
+    <!-- Divider after the header -->
     <div class="head-splitter"></div>
+
+    <!-- Main content -->
     <main>
+        <!-- Section with the title -->
         <section id="init-display">
             <div id="section1-cont">
                 <div id="main-text-cont">
-                    <h1>About Us</h1>
-                    <p>Some information about our store</p>
+                    <h1>About Us</h1> <!-- Main title of the page -->
+                    <p>Some information about our store</p> <!-- Brief description -->
                 </div>
             </div>
         </section>
+
+        <!-- Section with store information -->
         <section id="init-info">
             <div id="init-info-content">
-                <h2>Snack Deal - your guide to the world of sweet life!</h2>
+                <h2>Snack Deal - your guide to the world of sweet life!</h2> <!-- Subtitle -->
                 <p>Our store has been operating for three years, and during this time, we have built a huge customer base and positive reviews.</p>
                 <p>Let’s take a closer look at the process of receiving sweets from our store.</p>
             </div>
         </section>
+
+        <!-- Section describing the delivery process -->
         <section id="path-info">
+            <!-- Information about manufacturers -->
             <div class="info-item">
                 <div class="pict">
-                    <img src="../resources/images/about_path_imgs/factory.png" alt="Factory">
+                    <img src="../resources/images/about_path_imgs/factory.png" alt="Factory"> <!-- Factory image -->
                 </div>
                 <div class="info">
-                    <h3>We are a retailer</h3>
-                    <p>Our products come directly from manufacturers with all necessary documents.</p>
+                    <h3>We are a retailer</h3> <!-- Title -->
+                    <p>Our products come directly from manufacturers with all necessary documents.</p> <!-- Description -->
                 </div>
             </div>
-            <div class="split"></div>
+            <div class="split"></div> <!-- Divider -->
 
+            <!-- Information about warehouses -->
             <div class="info-item">
                 <div class="pict">
-                    <img src="../resources/images/about_path_imgs/warehouse.png" alt="Warehouse">
+                    <img src="../resources/images/about_path_imgs/warehouse.png" alt="Warehouse"> <!-- Warehouse image -->
                 </div>
                 <div class="info">
-                    <h3>Warehouses all over Turkey</h3>
-                    <p>Products are stored in specially equipped warehouses according to storage conditions.</p>
+                    <h3>Warehouses all over Turkey</h3> <!-- Title -->
+                    <p>Products are stored in specially equipped warehouses according to storage conditions.</p> <!-- Description -->
                 </div>
             </div>
-            <div class="split"></div>
+            <div class="split"></div> <!-- Divider -->
 
+            <!-- Information about order processing -->
             <div class="info-item">
                 <div class="pict">
-                    <img src="../resources/images/about_path_imgs/order.png" alt="Order">
+                    <img src="../resources/images/about_path_imgs/order.png" alt="Order"> <!-- Order image -->
                 </div>
                 <div class="info">
-                    <h3>Order processing</h3>
-                    <p>Once your order is confirmed, we immediately begin collecting and shipping it.</p>
+                    <h3>Order processing</h3> <!-- Title -->
+                    <p>Once your order is confirmed, we immediately begin collecting and shipping it.</p> <!-- Description -->
                 </div>
             </div>
-            <div class="split"></div>
-            <div class="info-item">
-                <div class="pict">
-                    <img src="../resources/images/about_path_imgs/courier.png" alt="Delivery">
-                </div>
-                <div class="info">
-                    <h3>Order delivery</h3>
-                    <p>We deliver your order as quickly as possible to any point in Turkey, and you just have to enjoy the sweets.</p>
-                </div>
-            </div>
-            <div class="split"></div>
+            <div class="split"></div> <!-- Divider -->
 
-            
+            <!-- Information about delivery -->
+            <div class="info-item">
+                <div class="pict">
+                    <img src="../resources/images/about_path_imgs/courier.png" alt="Delivery"> <!-- Delivery image -->
+                </div>
+                <div class="info">
+                    <h3>Order delivery</h3> <!-- Title -->
+                    <p>We deliver your order as quickly as possible to any point in Turkey, and you just have to enjoy the sweets.</p> <!-- Description -->
+                </div>
+            </div>
+            <div class="split"></div> <!-- Divider -->
         </section>
     </main>
+
+    <!-- Website footer -->
     <footer>
         <div id="footer-content">
             <div id="footer-info">
-                <img src="../resources/images/transparent_logo.png" alt="Logo">
-                <a href="mailto:vantofrina@gmail.com">Write to email</a>
-                <a href="tel:+90000000000">Call</a>
+                <img src="../resources/images/transparent_logo.png" alt="Logo"> <!-- Footer logo -->
+                <a href="mailto:vantofrina@gmail.com">Write to email</a> <!-- Email link -->
+                <a href="tel:+90000000000">Call</a> <!-- Phone link -->
             </div>
+            <!-- Social media icons -->
             <div id="footer-icons-cont">
                 <a href="http://web.telegram.org" target="_blank">
-                    <img src="../resources/images/telegram.png" alt="Telegram">
+                    <img src="../resources/images/telegram.png" alt="Telegram"> <!-- Telegram icon -->
                 </a>
                 <a href="http://youtube.com" target="_blank">
-                    <img src="../resources/images/youtube.png" alt="YouTube">
+                    <img src="../resources/images/youtube.png" alt="YouTube"> <!-- YouTube icon -->
                 </a>
                 <a href="http://snapchat.com" target="_blank">
-                    <img src="../resources/images/snapchat.png" alt="Snapchat">
+                    <img src="../resources/images/snapchat.png" alt="Snapchat"> <!-- Snapchat icon -->
                 </a>
             </div>
         </div>
-        <div id="footer-cpr">© 2025 Snack Deal. <a target="_blank" href="http://github.com/Zetoily">Created by Miron Yusupov</a>.</div>
+        <div id="footer-cpr">© 2025 Snack Deal. <a target="_blank" href="http://github.com/Zetoily">Created by Miron Yusupov</a>.</div> <!-- Copyright -->
     </footer>
 </body>
 </html>
