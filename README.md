@@ -1,2 +1,2 @@
 # snackdeal
-Site view https://zetoily.github.io/snackdeal/main/
+Website view https://zetoily.github.io/snackdeal/main/
